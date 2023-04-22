@@ -21,6 +21,7 @@ module.exports = class command extends Command {
 
      execute = async (m) => {
      if (!this.helper.config.mods.length) return void m.reply('*[UNMODERATED]*')
+     let gif = `https://graph.org/file/0b158b2fc0b9ed6cba865.mp4`
      let text ="*❱❱❱❱❱ MODS ❰❰❰❰❰*\n\n"
 
 const mentions = []
